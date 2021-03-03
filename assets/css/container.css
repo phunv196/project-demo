@@ -1,0 +1,565 @@
+.home-wrapper {
+  overflow: hidden;
+}
+.home-wrapper .banner {
+  padding: 68px 0 318px;
+  overflow: hidden;
+  position: relative;
+}
+.home-wrapper .banner.bg-default {
+  background: url(https://www.sapo.vn/Themes/Portal/Default/StylesV2/images/home/bg-banner.png?v=5) no-repeat bottom center;
+}
+.home-wrapper .banner h1 {
+  margin: 0 0 30px;
+  padding: 0 0 25px;
+  font-weight: 300;
+  color: #363636;
+  font-size: 46px;
+  line-height: 1.2;
+  position: relative;
+}
+.home-wrapper .banner h1:after {
+  content: "";
+  width: 100px;
+  height: 3px;
+  background: linear-gradient(to right, #2ad38b, #0cceb0);
+  margin: 0 auto;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.home-wrapper .banner p {
+  font-size: 21px;
+  color: #3a3a3a;
+  font-weight: 300;
+  margin-bottom: 40px;
+  line-height: 1.2;
+}
+.home-wrapper .banner p strong {
+  color: #6392ae;
+  font-weight: 700;
+  position: relative;
+  padding-left: 35px;
+  cursor: pointer;
+}
+.home-wrapper .banner p strong.not {
+  color: #65625f;
+  padding-left: 0;
+}
+.home-wrapper .banner .btn-registration {
+  font-size: 28px;
+  line-height: 74px;
+  font-weight: bold;
+  height: 74px;
+  padding: 0 50px;
+  position: relative;
+  z-index: 2;
+  background-image: -ms-linear-gradient(33deg, #2ad38b 0%, #0cceb0 100%);
+  box-shadow: 0 2px 29.12px 2.88px rgba(0, 0, 0, 0.14);
+}
+.home-wrapper .solution {
+  padding: 81px 0 30px;
+  position: relative;
+}
+.home-wrapper .solution h2 {
+  font-size: 42px;
+  font-weight: 300;
+  color: #42464e;
+  line-height: 1.2;
+  margin: 0 0 17px;
+}
+.home-wrapper .solution p {
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 300;
+  margin-bottom: 57px;
+}
+.home-wrapper .solution .col-lg-4 {
+  margin: 0 0 30px;
+}
+.home-wrapper .solution .item {
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 5px 62px 0 rgba(2, 55, 102, 0.09);
+  padding: 51px 30px 74px;
+  height: 100%;
+  text-align: left;
+  position: relative;
+}
+.home-wrapper .solution .item .title {
+  display: flex;
+  align-items: flex-start;
+  margin: 0 0 16px;
+  position: relative;
+}
+.home-wrapper .solution .item .title .icon {
+  width: 64px;
+  height: 70px;
+  flex-shrink: 0;
+  margin: 6px 24px 0 0;
+  cursor: pointer;
+}
+.home-wrapper .solution .item .title .icon.mobile {
+  display: none;
+}
+.home-wrapper .solution .item .title h3 {
+  text-transform: uppercase;
+  font-size: 19px;
+  font-weight: bold;
+  color: #606672;
+  line-height: 1.2;
+  margin: 0 0 12px;
+}
+.home-wrapper .solution .item .title h3 a {
+  color: inherit;
+  text-decoration: none;
+}
+.home-wrapper .solution .item .title p {
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #606672;
+  margin: 0;
+}
+.home-wrapper .solution .item .content p {
+  font-size: 15px;
+  line-height: 24px;
+  color: #8f8f8f;
+  font-weight: 400;
+  margin: 0 0 35px;
+}
+.home-wrapper .solution .item .view-more {
+  position: absolute;
+  right: 25px;
+  font-size: 16px;
+  transition: all 0.5s ease;
+  bottom: 40px;
+}
+.home-wrapper .solution .item .view-more svg {
+  width: 12px;
+  height: 9px;
+  margin-left: 1px;
+  display: inline-block;
+  fill: #007bff;
+  transition: all 0.5s ease;
+}
+.home-wrapper .solution .item .btn-registration {
+  font-size: 16px;
+  border: none;
+  height: 38px;
+  line-height: 38px;
+  padding: 0 35px;
+  transition: none;
+  position: absolute;
+  bottom: 36px;
+  color: #fff;
+  box-shadow: initial;
+  min-width: 135px;
+  text-align: center;
+}
+.home-wrapper .solution .item.sapopos .btn-registration {
+  background-image: linear-gradient(0deg, #00b0e5 8%, #0078fb 89%);
+}
+.home-wrapper .solution .item.sapoweb .btn-registration {
+  background-image: linear-gradient(0deg, #37e586 8%, #0fd186 89%);
+}
+.home-wrapper .solution .item.sapogo .btn-registration {
+  background-image: linear-gradient(0deg, #20c497 8%, #37b2ae 89%);
+}
+.home-wrapper .solution .item.sapofnb .btn-registration {
+  background-image: linear-gradient(0deg, #79d1fe 8%, #0cc2ed 89%);
+}
+.home-wrapper .solution .item.sapoomni .btn-registration {
+  background-image: linear-gradient(0deg, #a15ef3 8%, #5e76eb 89%);
+}
+.home-wrapper .solution .item.sapoenterprise .btn-registration {
+  background-image: linear-gradient(0deg, #ffb33a 8%, #ff7b02 88%);
+}
+.home-wrapper .customers {
+  padding: 21px 0 40px;
+  background: url(https://www.sapo.vn/Themes/Portal/Default/StylesV2/images/home/bg-customers-update.png) no-repeat bottom center;
+  background-size: cover;
+}
+.home-wrapper .customers h2 {
+  font-size: 40px;
+  font-weight: 300;
+  color: #42464e;
+  line-height: 1.2;
+  margin: 0 0 7px;
+}
+.home-wrapper .customers h2 strong {
+  font-weight: 500;
+}
+.home-wrapper .customers p {
+  font-size: 21px;
+  color: #42464e;
+  line-height: 1.2;
+  font-weight: 300;
+  margin-bottom: 50px;
+}
+.home-wrapper .customers .customer-item {
+  margin-bottom: 35px;
+  flex: 0 0 50%;
+  max-width: 20%;
+}
+.home-wrapper .customers .customer-item img {
+  max-width: 100%;
+}
+.home-wrapper .customers a {
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10%;
+}
+.home-wrapper .news-aboutus {
+  padding: 79px 0 0;
+}
+.home-wrapper .news-aboutus h2 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 1.2;
+  margin: 0 0 35px;
+}
+.home-wrapper .news-aboutus .nav-tabs {
+  justify-content: center;
+  border-bottom: none;
+  margin: 0 0 43px;
+}
+.home-wrapper .news-aboutus .nav-tabs .nav-item {
+  margin-bottom: 0;
+}
+.home-wrapper .news-aboutus .nav-tabs .nav-item .nav-link {
+  padding: 0 18px 13px;
+  font-size: 20px;
+  line-height: 26px;
+  border: none;
+  border-bottom: 1px solid #ebebeb;
+  color: #b7b7b7;
+  position: relative;
+}
+.home-wrapper .news-aboutus .nav-tabs .nav-item .nav-link .active {
+  color: #42464e;
+  font-weight: bold;
+}
+.home-wrapper .news-aboutus .nav-tabs .nav-item .nav-link .active:after {
+  content: "";
+  width: 103px;
+  height: 3px;
+  background: #26d290;
+  position: absolute;
+  bottom: -1.5px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.home-wrapper .news-aboutus .nav-tabs .nav-item .nav-link .badge {
+  font-size: 11px;
+  color: #fff;
+  text-transform: uppercase;
+  background: #ff8da2;
+  border-radius: 3px;
+  font-weight: bold;
+  vertical-align: top;
+  margin: -5px 0 0 7px;
+}
+.home-wrapper .news-aboutus .news-item {
+  position: relative;
+  background: #fff;
+  box-shadow: #f2f2f2 0 10px 40px 1px;
+  padding-bottom: 35px;
+}
+.home-wrapper .news-aboutus .news-item > a {
+  text-align: center;
+  display: block;
+  width: 100%;
+  overflow: hidden;
+}
+.home-wrapper .news-aboutus .news-item > a img {
+  height: 250px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+.home-wrapper .news-aboutus .news-item .time {
+  margin: 30px 20px 15px;
+  font-size: 14px;
+  color: #b7b7b7;
+}
+.home-wrapper .news-aboutus .news-item .title {
+  margin: 0 20px 25px;
+  height: 52px;
+  overflow: hidden;
+}
+.home-wrapper .news-aboutus .news-item .title a {
+  font-size: 20px;
+  font-weight: 500;
+  color: #42464e;
+  line-height: 26px;
+  display: block;
+}
+.home-wrapper .news-aboutus .news-item .continue {
+  margin: 0 20px;
+}
+.home-wrapper .news-aboutus .news-item .continue a {
+  font-size: 14px;
+  color: #08f;
+}
+.home-wrapper .news-aboutus .news-item .source-name {
+  display: block;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 9;
+  background: #08f;
+  color: #fff;
+  padding: 8px;
+  font-size: 13px;
+}
+.home-wrapper .news-aboutus .see-more {
+  margin: 45px 0 30px;
+  display: inline-block;
+  text-decoration: underline;
+  color: #08f;
+  font-size: 18px;
+}
+.home-wrapper .news-aboutus .news-sources {
+  border-top: 1px solid #e6e6e6;
+  text-align: center;
+  height: 90px;
+}
+.home-wrapper .news-aboutus .news-sources .swiper-slide:hover img {
+  filter: none;
+  opacity: 1;
+}
+.home-wrapper .slogan {
+  color: #fff;
+  background: url(https://www.sapo.vn/Themes/Portal/Default/StylesV2/images/home/bg-slogan-update.jpg) no-repeat center top;
+  padding: 80px 0 60px;
+  background-size: cover;
+}
+.home-wrapper .slogan h2 {
+  font-size: 42px;
+  font-weight: 300;
+  line-height: 1.2;
+  margin: 0 0 6px;
+}
+.home-wrapper .slogan p {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.2;
+  margin-bottom: 59px;
+}
+.home-wrapper .slogan .content .icon {
+  height: 144px;
+  width: 100%;
+}
+.home-wrapper .slogan .content span {
+  font-size: 20px;
+  font-weight: 300;
+}
+.home-wrapper .partner {
+  text-align: center;
+  padding: 70px 0 70px;
+  background: url(https://www.sapo.vn/Themes/Portal/Default/StylesV2/images/home/bg-partner.png) no-repeat bottom center;
+  background-size: cover;
+}
+.home-wrapper .partner h2 {
+  font-size: 40px;
+  font-weight: 300;
+  color: #42464e;
+  line-height: 1.4;
+}
+.home-wrapper .partner p {
+  font-size: 21px;
+  font-weight: 300;
+  color: #42464e;
+  line-height: 1.4;
+  margin-bottom: 50px;
+}
+.home-wrapper .partner .row img {
+  margin-bottom: 35px;
+}
+.home-wrapper .partner .row h4 {
+  font-weight: bold;
+  color: #42464e;
+  font-size: 20px;
+  line-height: 1.4;
+  position: relative;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+.home-wrapper .partner .row h4:before {
+  content: "";
+  height: 1px;
+  width: 50px;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  background: #c8d7e2;
+  transform: translateX(-50%);
+}
+.home-wrapper .partner .row p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #42464e;
+  margin-bottom: 0;
+  padding: 0 80px;
+  text-align: justify;
+  text-align-last: center;
+  margin: 0;
+}
+.home-wrapper .support-sapo {
+  padding: 55px 0 120px;
+  position: relative;
+}
+.home-wrapper .support-sapo h2 {
+  font-size: 40px;
+  font-weight: 300;
+  color: #42464e;
+  line-height: 1.3;
+  text-align: center;
+  margin-bottom: 55px;
+}
+.home-wrapper .support-sapo .slide-reason {
+  margin: 5px -35px 0;
+}
+.home-wrapper .support-sapo .slide-reason .swiper-container {
+  padding: 0 30px 65px;
+}
+.home-wrapper .support-sapo .item {
+  border-radius: 15px;
+  background-color: #fff;
+  box-shadow: 0 20px 50px 0 rgba(9, 76, 169, 0.08);
+  margin-right: 98px;
+  position: relative;
+  z-index: 1;
+  min-height: 330px;
+  overflow: hidden;
+  background: #fff;
+}
+.home-wrapper .support-sapo .item.one {
+  border-top-left-radius: 0;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 0;
+}
+.home-wrapper .support-sapo .item.one:before {
+  background-color: #f1f7ff;
+}
+.home-wrapper .support-sapo .item.one .title {
+  padding: 0 30px;
+}
+.home-wrapper .support-sapo .item:last-child {
+  margin-right: 0;
+}
+.home-wrapper .support-sapo .item:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  width: 486px;
+  height: 233px;
+  z-index: -1;
+  top: -140px;
+  left: -75px;
+}
+.home-wrapper .support-sapo .item .num {
+  margin-bottom: 35px;
+  text-align: center;
+}
+.home-wrapper .support-sapo .item .title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #42464e;
+  line-height: 24px;
+  position: relative;
+  margin-bottom: 15px;
+  padding: 0 !important;
+  text-align: center;
+}
+.home-wrapper .support-sapo .item p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #42464e;
+  margin-bottom: 0;
+  text-align: justify;
+  text-align-last: center;
+}
+.home-wrapper .support-sapo .item.two {
+  border-top-left-radius: 40px;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 40px;
+}
+.home-wrapper .support-sapo .item.two:before {
+  background-color: #fff4ef;
+}
+.home-wrapper .support-sapo .item.two .title {
+  padding: 0 40px;
+}
+.home-wrapper .support-sapo .item.two p {
+  padding: 0 19px;
+}
+.home-wrapper .support-sapo .item.three {
+  border-top-left-radius: 0;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 0;
+}
+.home-wrapper .support-sapo .item.three:before {
+  background-color: #ebfff6;
+}
+.home-wrapper .support-sapo .item.three .title {
+  padding: 0 50px;
+}
+.home-wrapper .support-sapo .item.three p {
+  padding: 0 20px;
+}
+.home-wrapper .quick-registration {
+  background: none;
+  padding: 0;
+  margin-top: -106px;
+  z-index: 3;
+  position: relative;
+}
+.home-wrapper .quick-registration h2 {
+  font-size: 36px;
+  font-weight: 900;
+}
+.home-wrapper .quick-registration .bg-register {
+  margin: 0 auto;
+  padding: 35px 95px 45px;
+  background-image: linear-gradient(0deg, #085ed5 0%, #4ca6e7 100%);
+  background-image: -ms-linear-gradient(0deg, #085ed5 0%, #4ca6e7 100%);
+  border-top-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+.home-wrapper .quick-registration .bg-register h2 {
+  margin: 0 0 0;
+  font-size: 36px;
+  font-weight: bold;
+}
+.home-wrapper .quick-registration .bg-register label {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+.home-wrapper .quick-registration .bg-register .reg-form input {
+  height: 60px;
+  line-height: 60px;
+  border-radius: 30px;
+  width: 532px;
+  color: #57575f;
+}
+.home-wrapper .quick-registration .bg-register .reg-form .btn-registration {
+  background-image: -ms-linear-gradient(0deg, #0fd186 0%, #35d899 100%);
+  box-shadow: 0 0 40px 0 rgba(18, 160, 105, 0.22);
+  height: 60px;
+  line-height: 60px !important;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 0 50px;
+}
